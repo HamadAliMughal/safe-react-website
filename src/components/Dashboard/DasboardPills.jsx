@@ -41,7 +41,7 @@ export default function DashboardPills() {
       </MDBTabs>
 
       <MDBTabsContent className="table-responsive mb-12">
-        <MDBTabsPane show={fillActive === 'tab1'}>Overview</MDBTabsPane>
+        <MDBTabsPane show={fillActive === 'tab1'}><Overview/></MDBTabsPane>
         <MDBTabsPane show={fillActive === 'tab2'}><Users/></MDBTabsPane>
         <MDBTabsPane show={fillActive === 'tab3'}>Tab 3 content</MDBTabsPane>
         <MDBTabsPane show={fillActive === 'tab4'}>Tab 4 content</MDBTabsPane>

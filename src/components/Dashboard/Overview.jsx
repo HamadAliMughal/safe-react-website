@@ -1,7 +1,7 @@
 // Import necessary modules
 import React from 'react';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle } from 'mdb-react-ui-kit';
-import { Pie } from 'react-chartjs-2';
+import { PieChart } from 'react-minimal-pie-chart';
 
 // Data for Pie Charts
 const data1 = {
@@ -42,36 +42,57 @@ const Overview = () => {
   return (
     <div className="container mt-5">
       <MDBRow>
+        <MDBCol md="3" className="mb-3">
+          </MDBCol>
         {/* First Pie Graph */}
-        <MDBCol md="4" className="mb-4">
+        <MDBCol md="2" className="mb-3">
           <MDBCard>
             <MDBCardBody>
-              <MDBCardTitle className="text-center mb-4">Pie Graph 1</MDBCardTitle>
-              <Pie data={data1} />
+              <MDBCardTitle className="text-center mb-4">Free</MDBCardTitle>
+              <PieChart
+  data={[
+    { title: 'One', value: 35, color: 'rgb(96,150,180)' },
+    { title: 'Two', value: 65, color: 'rgb(137,137,137)' },
+
+  ]}
+/>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
 
         {/* Second Pie Graph */}
-        <MDBCol md="4" className="mb-4">
+        <MDBCol md="2" className="mb-3">
           <MDBCard>
             <MDBCardBody>
-              <MDBCardTitle className="text-center mb-4">Pie Graph 2</MDBCardTitle>
-              <Pie data={data2} />
+              <MDBCardTitle className="text-center mb-4">Basic</MDBCardTitle>
+              <PieChart
+  data={[
+    { title: 'One', value: 45, color: 'rgb(96,150,180)' },
+    { title: 'Two', value: 55, color: 'rgb(137,137,137)' },
+ 
+  ]}
+/>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
 
         {/* Third Pie Graph */}
-        <MDBCol md="4" className="mb-4">
+        <MDBCol md="2" className="mb-3">
           <MDBCard>
             <MDBCardBody>
-              <MDBCardTitle className="text-center mb-4">Pie Graph 3</MDBCardTitle>
-              <Pie data={data3} />
+              <MDBCardTitle className="text-center mb-4">Premium </MDBCardTitle>
+              <PieChart
+  data={[
+    { title: 'One', value: 20, color: 'rgb(96,150,180)' },
+    { title: 'Two', value: 80, color: 'rgb(137,137,137)' , label:'80' },
+
+  ]}
+/>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
       </MDBRow>
+      
     </div>
   );
 };
