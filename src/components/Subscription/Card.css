@@ -1,0 +1,24 @@
+.mdb-card{
+    transition: transform 0.2s;
+}
+
+.heading{
+    color: rgb(44, 141, 148);
+    justify-content: center;
+    text-align: center;
+    font:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+.mdb-card:hover{
+    transform:scale(1.1)
+}
+
+ul li{
+    list-style-type:none;
+    text-align: left;
+}
+.all-bg-color{
+    background-color: rgb(238, 233, 218);
+}

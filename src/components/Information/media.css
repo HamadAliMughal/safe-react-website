@@ -1,0 +1,14 @@
+.mainMedia{
+    background-color:white;
+}
+.sub{
+    background-color: antiquewhite;
+    border:0cm;
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(79, 79, 79);
+}
+.file{
+    width: 40%;
+    margin-left: 23rem;
+}

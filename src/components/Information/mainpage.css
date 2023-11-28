@@ -1,0 +1,17 @@
+.main{
+    background-color:antiquewhite;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(79, 79, 79);
+}
+.smain{
+    justify-content: center;
+    margin: 4% 6%;
+}
+.sub{
+    background-color: white;
+    border:0cm;
+    margin: 2rem 2rem;
+}
+.bton{
+    align-content: center;
+}
