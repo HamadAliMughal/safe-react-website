@@ -2,6 +2,7 @@
 import React from 'react';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle } from 'mdb-react-ui-kit';
 import { PieChart } from 'react-minimal-pie-chart';
+import Revenue from './Revenue';
 
 // Data for Pie Charts
 const data1 = {
@@ -92,7 +93,9 @@ const Overview = () => {
           </MDBCard>
         </MDBCol>
       </MDBRow>
-      
+      <MDBRow>
+        <Revenue/>
+      </MDBRow>
     </div>
   );
 };
