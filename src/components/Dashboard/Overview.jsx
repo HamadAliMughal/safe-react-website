@@ -93,9 +93,7 @@ const Overview = () => {
           </MDBCard>
         </MDBCol>
       </MDBRow>
-      <MDBRow>
-        <Revenue/>
-      </MDBRow>
+
     </div>
   );
 };

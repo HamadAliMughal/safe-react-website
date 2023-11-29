@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
-import uet from "./images/uet.jpg";
+import team1 from "./images/Team1.jpg";
+import team2 from "./images/Team2.jpg";
+import team3 from "./images/Team3.jpg";
+
 
 import {
   MDBCol,
@@ -26,17 +29,16 @@ const About1 = () => {
             <MDBCol className="col-12 col-lg-4">
               <MDBCard className="card-size">
                 <MDBCardImage
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
+                  src={team1}
                   position="top"
                   alt="..."
                 />
                 <MDBCardBody>
-                  <MDBCardTitle>Card title</MDBCardTitle>
+                  <MDBCardTitle>Bushra Farooq</MDBCardTitle>
                   <MDBCardText>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  A fervent Computer Science student, working passionately to elevate cybersecurity awareness in Pakistan. With a relentless commitment to fostering digital safety, this enthusiast is on a mission to empower individuals and organizations with the knowledge and tools needed to navigate the ever-evolving landscape of cybersecurity.
                   </MDBCardText>
-                  <MDBBtn href="#">Button</MDBBtn>
+                  <MDBBtn href="#">Follow</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -44,17 +46,16 @@ const About1 = () => {
             <MDBCol className="col-12 col-lg-4">
               <MDBCard className="card-size">
                 <MDBCardImage
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
+                  src={team2}
                   position="top"
                   alt="..."
                 />
                 <MDBCardBody>
-                  <MDBCardTitle>Card title</MDBCardTitle>
+                  <MDBCardTitle>Sadia Ghani</MDBCardTitle>
                   <MDBCardText>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  A fervent Computer Science student, working passionately to elevate cybersecurity awareness in Pakistan. With a relentless commitment to fostering digital safety, this enthusiast is on a mission to empower individuals and organizations with the knowledge and tools needed to navigate the ever-evolving landscape of cybersecurity.
                   </MDBCardText>
-                  <MDBBtn href="#">Button</MDBBtn>
+                  <MDBBtn href="#">Follow</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -62,17 +63,17 @@ const About1 = () => {
             <MDBCol className="col-12 col-lg-4">
               <MDBCard className="card-size">
                 <MDBCardImage
-                  src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
+                  src={team3}
                   position="top"
                   alt="..."
+                
                 />
                 <MDBCardBody>
-                  <MDBCardTitle>Card title</MDBCardTitle>
+                  <MDBCardTitle>Eisha Tur Razia</MDBCardTitle>
                   <MDBCardText>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  A fervent Computer Science student, working passionately to elevate cybersecurity awareness in Pakistan. With a relentless commitment to fostering digital safety, this enthusiast is on a mission to empower individuals and organizations with the knowledge and tools needed to navigate the ever-evolving landscape of cybersecurity.
                   </MDBCardText>
-                  <MDBBtn href="#">Button</MDBBtn>
+                  <MDBBtn href="#">Follow</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>

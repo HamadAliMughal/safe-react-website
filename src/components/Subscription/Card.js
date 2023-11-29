@@ -36,7 +36,7 @@ function Card() {
         <MDBCardText>
         <span className='fw-bold fs-2'>1000Rs/month </span><br/>
         <ul>
-            <li><MDBIcon fas icon="check" className='me-3'/>20GB Data Storage</li>
+            <li><MDBIcon fas icon="check" className='me-3'/>15GB Data Storage</li>
             <li><MDBIcon fas icon="check" className='me-3'/>Full Access to All Features</li>
             <li><MDBIcon fas icon="check" className='me-3'/>24/7 Availability of Expert Support</li>
           <br></br>
@@ -55,7 +55,7 @@ function Card() {
         <MDBCardText>
         <span className='fw-bold fs-2'>2000Rs/month </span><br/>
         <ul>
-            <li><MDBIcon fas icon="check" className='me-3'/>Unlimited Data Storage</li>
+            <li><MDBIcon fas icon="check" className='me-3'/>20GB Data Storage</li>
             <li><MDBIcon fas icon="check" className='me-3'/>All Features including Threat Intelligence</li>
             <li><MDBIcon fas icon="check" className='me-3'/>Priority 24/7 Availability of Expert Support</li>
            

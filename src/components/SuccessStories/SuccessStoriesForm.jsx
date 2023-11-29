@@ -234,9 +234,9 @@ const SuccessStoriesForm = () => {
                 <MDBTextArea value={formValue.story} name='story' onChange={validateMsg} label='Your Message' id='textAreaExample' rows={5} required />
               </div>
               <p id='sstory' className='mt-0' style={{ display: "none" }}></p>
-              <MDBValidationItem feedback="You Must Agree" invalid>
+              {/* <MDBValidationItem feedback="You Must Agree" invalid>
                 <MDBCheckbox label='Agree to terms and conditions' name='terms' onChange={onChange1} id='invalidCheck' required />
-              </MDBValidationItem>
+              </MDBValidationItem> */}
               <div className='col-12'>
                 <MDBBtn type='submit' onClick={onSubmit}>Submit form</MDBBtn>
               </div>
